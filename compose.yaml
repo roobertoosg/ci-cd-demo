@@ -1,0 +1,5 @@
+services:
+  ci-cd-demo:
+    image: ci-cd-demo:local
+    ports:
+      - "8080:8080"
